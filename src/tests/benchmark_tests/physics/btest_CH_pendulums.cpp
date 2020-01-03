@@ -86,8 +86,6 @@ ChainTest<N>::ChainTest() : m_length(0.25), m_step(1e-3) {
 
             break;
         }
-        default:
-            break;
     }
 
     // Set integrator parameters
@@ -105,8 +103,6 @@ ChainTest<N>::ChainTest() : m_length(0.25), m_step(1e-3) {
             integrator->SetVerbose(false);
             break;
         }
-        default:
-            break;
     }
 
     // Create ground

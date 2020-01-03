@@ -90,6 +90,9 @@ class CH_OPENGL_API ChOpenGLWindow {
     // interaction
     ChOpenGLViewer* viewer;
 
+    // Pointer to the opengl context
+    GLFWwindow* window;
+
   private:
     // Singleton constructor should be private so that a user cannot call it
     ChOpenGLWindow() {}
@@ -118,8 +121,6 @@ class CH_OPENGL_API ChOpenGLWindow {
     // mouse position
     static void CallbackMousePos(GLFWwindow* window, double x, double y);
 
-    // Pointer to the opengl context
-    GLFWwindow* window;
     int poll_frame;
 };
 

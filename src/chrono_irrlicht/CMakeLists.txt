@@ -132,7 +132,6 @@ SET_TARGET_PROPERTIES(ChronoEngine_irrlicht PROPERTIES
 
 target_compile_definitions(ChronoEngine_irrlicht PRIVATE "CH_API_COMPILE_IRRLICHT")
 target_compile_definitions(ChronoEngine_irrlicht PRIVATE "CH_IGNORE_DEPRECATED")
-target_compile_definitions(ChronoEngine_irrlicht PRIVATE "IGNORE_DEPRECATED_WARNING")
 
 TARGET_LINK_LIBRARIES(ChronoEngine_irrlicht
   ChronoEngine

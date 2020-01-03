@@ -474,7 +474,6 @@ set(ChronoEngine_fea_elements_SOURCES
     fea/ChElementShellANCF.cpp
     fea/ChElementShellANCF_8.cpp
     fea/ChElementShellReissner4.cpp
-	fea/ChElementShellBST.cpp
     fea/ChElementBrick.cpp
     fea/ChElementBrick_9.cpp
 )
@@ -502,7 +501,6 @@ set(ChronoEngine_fea_elements_HEADERS
     fea/ChElementShellANCF.h
     fea/ChElementShellANCF_8.h
     fea/ChElementShellReissner4.h
-	fea/ChElementShellBST.h
 )
 
 source_group(fea\\elements FILES

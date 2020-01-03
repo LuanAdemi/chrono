@@ -76,10 +76,10 @@ class ChApi ChFunctionPosition_XYZfunctions : public ChFunctionPosition {
 
    
     /// Method to allow serialization of transient data to archives
-    virtual void ArchiveOUT(ChArchiveOut& marchive) override;
+    virtual void ArchiveOUT(ChArchiveOut& marchive);
 
     /// Method to allow de-serialization of transient data from archives.
-    virtual void ArchiveIN(ChArchiveIn& marchive) override;
+    virtual void ArchiveIN(ChArchiveIn& marchive);
 
 private:
 	std::shared_ptr<ChFunction> px;

@@ -268,7 +268,6 @@ void ChOpenGLViewer::Render() {
         time_geometry = .5 * timer_geometry() + .5 * time_geometry;
 
         timer_text.start();
-        DisplayHUD();
         timer_text.stop();
         time_text = .5 * timer_text() + .5 * time_text;
     }
